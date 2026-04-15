@@ -200,7 +200,7 @@ for phase_name, topics in phases.items():
             markdown_content += f"| {topic} | - | - | - |\n"
     markdown_content += "\n"
 
-with open("selene_curated_path.md", "w") as f:
+with open("index.md", "w") as f:
     f.write(markdown_content)
 
 print("Markdown generated with clean URL templating")
